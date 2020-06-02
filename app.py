@@ -11,6 +11,15 @@ class DemoBot():
     def __init__(self):
         self.all_intents = []
         training_data = [
+            # Hej
+            ["Hej",
+             "Tjena",
+             "Hallå",
+             "Morsning",
+             "start",
+             "/start",
+             "Hej!"],
+
             # Vad är Shorinji Kempo
             ["Vad är Shorinji Kempo",
              "Vad är Shorinji Kempo för något",
@@ -219,6 +228,16 @@ class DemoBot():
              "Vår huvudinstruktör heter Anders Pettersson, "
              "och han har graden rokudan - svart bälte av "
              "sjätte graden."],
+
+            # Vad heter klubben
+            ["Vad heter klubben",
+             "Vad heter föreningen",
+             "Vad kallas klubben",
+             "Vad kallar ni er klubb",
+             "Vad har klubben för namn",
+             "Vad är det för namn på föreningen",
+             "Föreningen heter Shorinji Kempo Karlstad Shibu, "
+             "vilket betyder Karlstads Shorinji Kempo-förening."],
 
             # När grundades klubben
             ["När grundades klubben",
